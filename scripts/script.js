@@ -1,4 +1,3 @@
-// scripts/script.js
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.getElementById("mobile-menu");
     const navList = document.getElementById("nav-list");
@@ -30,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   
     // Adicionar smooth scroll para navegação rápida
-    document.querySelectorAll('.diagonal-item').forEach(item => {
+    document.querySelectorAll('.lettuce-nav-minimal-item').forEach(item => {
       item.addEventListener('click', function(e) {
         e.preventDefault();
         const targetId = this.getAttribute('href');
